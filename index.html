@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <title>Productos</title>
+    <link rel="stylesheet" href="diseño.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="menu d-flex justify-content-between">
+                <img src="https://cdn-icons-png.flaticon.com/512/706/706195.png" alt="foto-logotipo" class="healty" href="#">
+                <h3 class="texto me-auto p-2 bd-highlight align-self-center">Healthy Kali's</h3>
+                <button type="button" class="listar btn btn-info p-2 bd-highlight">LISTAR
+                    <img src="https://cdn-icons-png.flaticon.com/512/2666/2666436.png" alt="lista" class="lista">
+                </button>
+                <button type="button" class="registro btn btn-success p-2 bd-highlight">REGISTRO
+                    <img src="https://cdn-icons-png.flaticon.com/512/3082/3082031.png" alt="carrito" class="carrito">
+                </button>
+            </nav>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="d-flex justify-content-center">
+                <form action="index1.php" method="post">
+                    <div class="row d-flex justify-content-center">
+                        <label for="nombre" class="nombre" required>Nombre:</label>
+                        <input type="text" id="nombre" class="form-control" name="nombre">
+                        <div class="valid-feedback">
+                            Campo Completo
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <label class="caducidad" required>Fecha de Caducidad:</label>
+                        <input type="date" class="form-control" name="fechacaducidad">
+                        <div class="valid-feedback">
+                            Campo Completo
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <label class="codigo" required>Código:</label>
+                        <input type="text" class="form-control" name="codigo">
+                        <div class="valid-feedback">
+                            Campo Completo
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <label class="cantidad" required>Cantidad:</label>
+                        <input type="number" class="form-control" name="cantidad">
+                        <div class="valid-feedback">
+                            Campo Completo
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <label class="unitario" required>Precio Unitario:</label>
+                        <div class="input-group">
+                            <span class="dolar input-group-text">$</span>
+                            <input type="number" class="form-control" name="precio"
+                                aria-label="Dollar amount (with dot and two decimal places)">
+                        </div>
+                        <div class="valid-feedback">
+                            Campo Completo
+                        </div>
+                    </div>
+                    <br>
+                    <button type="submit" class="unomas btn btn-success">AGREGAR
+                        <img src="https://cdn-icons.flaticon.com/png/512/5952/premium/5952750.png?token=exp=1659480562~hmac=c6dfa345fefdce81ed9f7d3e5587a3b7"
+                            alt="agregar" class="agregar">
+                    </button>
+                    <button type="reset" class="todomenos btn btn-danger">LIMPIAR
+                        <img src="https://cdn-icons.flaticon.com/png/512/5952/premium/5952781.png?token=exp=1659480656~hmac=323718a57ed5e7960600022216a06603"
+                            alt="limpiar" class="limpiar">
+                    </button>
+                    </br>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+</body>
+
+</html>

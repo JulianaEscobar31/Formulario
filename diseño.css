@@ -1,0 +1,115 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    background-image: linear-gradient(to right bottom, #ba7ea0, #b884b0, #b28bbf, #a993cd, #9c9cda, #8ea8e7, #7cb3f1, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    overflow-x: hidden;
+}
+
+h3{
+    margin-left: 1rem;
+    color: rgb(66, 16, 69);
+    font-size: 2rem;    
+
+}
+
+form{
+    font-size: 1.7rem;
+    text-align: center;
+    margin: auto;
+    padding: 3rem;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 1rem;
+} 
+
+/* boton de lista */
+
+.listar{
+    width: 10rem;
+    margin-right: 1rem;
+}
+
+/* boton de registro */
+.registro{
+    width: 10rem;
+    margin-right: 1rem ;
+}
+
+/* logo nav */
+.healty{
+    width: 6rem;
+    padding-left: 1rem ;
+    padding-right: 1rem ;
+}
+
+/* imagen dentro de boton 3  */
+.lista{
+    width: 2rem;
+}
+
+/* imagen dentro de boton 2  */
+.carrito{
+    width: 2rem;
+}
+
+/* imagen dentro de boton 3  */
+.agregar{
+    width: 2rem;
+}
+
+/* imagen dentro de boton 4  */
+.limpiar{
+    width: 2rem;
+} 
+
+/* navbar  */
+.menu{
+    background-color: transparent;
+} 
+
+/* todas las row */
+.row{
+    padding: 1rem 3rem;
+}
+
+/* formulario */
+.form-control{
+    width: 12rem;
+    border-radius: 1rem;
+    background-color: #7476762d;
+    border-style: none;
+}
+
+/* boton de dolar */
+.dolar{
+    border-radius: 1rem;
+    border-style: none;
+    background-color: #ba7ea04f;
+}
+
+/* campo junto a dolar */
+.input-group{
+    width: 13.5rem;
+}
+
+/* boton de agregar */
+.unomas{
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border: px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 1rem;
+}
+
+/* boton de limpiar */
+.todomenos{
+    padding-left: 1rem;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border: px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 1rem;
+}
